@@ -13,7 +13,7 @@ cask "stillwater" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Stillwater.app"
   binary "#{appdir}/Stillwater.app/Contents/Helpers/stillwater"
